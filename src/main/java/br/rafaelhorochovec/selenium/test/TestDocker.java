@@ -37,7 +37,6 @@ public class TestDocker {
 			// capturar screenshot
 			File imagem = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 	        try {
-	        	
 				FileUtils.copyFile(imagem, new File("target/screenshots/"+ nome +".png"));
 			} catch (IOException e) {
 				e.printStackTrace();

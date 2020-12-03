@@ -5,6 +5,7 @@
 .metadata
 .classpath
 .project
+target/
 bin/
 tmp/
 *.tmp
